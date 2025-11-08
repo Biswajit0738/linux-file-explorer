@@ -79,7 +79,7 @@ graph TD
 
 ```bash
 g++ -std=gnu++17 main.cpp -o filex
-./filex
+./filex---
 
 ---
 
