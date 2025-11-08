@@ -99,5 +99,3 @@ linux-file-explorer/
 └── 📁 testdir/ # Example folder used during testing
 ├── 📄 file1.txt
 └── 📄 renamed.txt
-
----
