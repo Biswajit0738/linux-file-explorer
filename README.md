@@ -21,8 +21,6 @@ robust, and ready for demos.
 ---
 
 ## **Project Structure**
-
-```mermaid
 graph TD
     R[Project Root]
     R --> SRC[main.cpp]
