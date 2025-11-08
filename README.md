@@ -68,8 +68,6 @@ graph TD
     R --> TEST[testdir/]
     TEST --> F[file1.txt]
     TEST --> RN[renamed.txt]
----
-
 
 
 
