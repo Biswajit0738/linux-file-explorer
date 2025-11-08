@@ -55,7 +55,7 @@ robust, and ready for demos.
 ---
 
 ## 🛠 How to Compile & Run
-
+---bash
 g++ -std=gnu++17 main.cpp -o filex
 ./filex
 
