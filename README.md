@@ -1,15 +1,15 @@
-<div align="center">
+<h1 align="center">Linux File Explorer (C++17)</h1>
 
-# Linux File Explorer (C++17)
-![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)
-![Made with C++](https://img.shields.io/badge/Made%20with-C%2B%2B17-blue.svg)
-![Platform: Linux](https://img.shields.io/badge/Platform-Linux-orange.svg)
+<p align="center">
+  <b>A lightweight terminal-based file management tool.</b><br/>
+  Built using the C++17 <code>std::filesystem</code> library.
+</p>
 
-A **console-based File Explorer** built using **C++17** and the **<filesystem>** library.  
-This application provides essential file management operations through a clean, terminal-friendly command interface — similar to lightweight shell utilities.
-
----
-</div>
+<p align="center">
+  <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-green.svg"></a>
+  <img src="https://img.shields.io/badge/C++-17-blue.svg">
+  <img src="https://img.shields.io/badge/Platform-Linux-orange.svg">
+</p>
 
 ## 🚀 Features
 
@@ -30,25 +30,6 @@ This application provides essential file management operations through a clean, 
 - Command parsing & interactive CLI design
 - File permissions (`chmod`) & path handling
 - Recursive searching & error handling
-
----
-
-## 📸 Feature Demonstration (Screenshots)
-
-### 5.1 List Directory
-![List Directory Screenshot](screenshots/list.png)
-
-### 5.2 Create Directory & File
-![Create Directory Screenshot](screenshots/create.png)
-
-### 5.3 Copy & Move Files
-![Copy & Move Screenshot](screenshots/copy-move.png)
-
-### 5.4 Change Permissions
-![Change Permissions Screenshot](screenshots/chmod.png)
-
-### 5.5 Search Files
-![Search File Screenshot](screenshots/search.png)
 
 ---
 
@@ -75,3 +56,22 @@ linux-file-explorer/
 └── 📁 testdir/ # Example folder used during testing
 ├── 📄 file1.txt
 └── 📄 renamed.txt
+
+---
+
+## 📸 Feature Demonstration (Screenshots)
+
+### 5.1 List Directory
+![List Directory Screenshot](screenshots/list.png)
+
+### 5.2 Create Directory & File
+![Create Directory Screenshot](screenshots/create.png)
+
+### 5.3 Copy & Move Files
+![Copy & Move Screenshot](screenshots/copy-move.png)
+
+### 5.4 Change Permissions
+![Change Permissions Screenshot](screenshots/chmod.png)
+
+### 5.5 Search Files
+![Search File Screenshot](screenshots/search.png)
