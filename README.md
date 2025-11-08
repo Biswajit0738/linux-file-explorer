@@ -49,6 +49,17 @@ linux-file-explorer/
 
 ---
 
+## 🧠 Skills Demonstrated
+
+- Linux filesystem handling & directory traversal
+- Use of `<filesystem>` API in C++17
+- Command parsing & CLI design
+- Permission bits (`chmod` style) & metadata handling
+- Recursive search algorithms
+- Clean, structured, maintainable C++ code
+
+---
+
 ## 📸 Feature Demonstration (Screenshots)
 
 ### 5.1 List Directory
@@ -77,9 +88,11 @@ linux-file-explorer/
 
 ---
 
-## 🛠 How to Compile & Run
----bash
+## ⚙️ How to Compile & Run
+
+```bash
 g++ -std=gnu++17 main.cpp -o filex
 ./filex
+```
 
 ---
