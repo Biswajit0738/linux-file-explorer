@@ -6,6 +6,26 @@ and supports everyday ops (`cp`, `mv`, `rm`, `touch`, `mkdir`), permission view/
 robust, and ready for demos.
 
 </div>
+---
+
+## 📸 Feature Demonstration (Screenshots)
+
+### 5.1 List Directory
+![List Directory Screenshot](screenshots/list.png)
+
+### 5.2 Create Directory & File
+![Create Directory Screenshot](screenshots/create.png)
+
+### 5.3 Copy & Move Files
+![Copy & Move Screenshot](screenshots/copy-move.png)
+
+### 5.4 Change Permissions
+![Change Permissions Screenshot](screenshots/chmod.png)
+
+### 5.5 Search Files
+![Search File Screenshot](screenshots/search.png)
+
+---
 
 ## 🚀 Features
 
@@ -29,8 +49,6 @@ flowchart TD
     D --> E[Format + Colorize]
     E --> A
 
-# Include a file tree (Mermaid)
-```md
 ## 📁 Project structure
 ```mermaid
 flowchart TB
@@ -44,26 +62,7 @@ flowchart TB
     R --> GIT[.gitignore]
     R --> LIC[LICENSE]
 
----
 
-## 📸 Feature Demonstration (Screenshots)
-
-### 5.1 List Directory
-![List Directory Screenshot](screenshots/list.png)
-
-### 5.2 Create Directory & File
-![Create Directory Screenshot](screenshots/create.png)
-
-### 5.3 Copy & Move Files
-![Copy & Move Screenshot](screenshots/copy-move.png)
-
-### 5.4 Change Permissions
-![Change Permissions Screenshot](screenshots/chmod.png)
-
-### 5.5 Search Files
-![Search File Screenshot](screenshots/search.png)
-
----
 
 ## 🧠 Skills Demonstrated
 - Linux filesystem & directory traversal
