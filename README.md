@@ -47,6 +47,7 @@ flowchart TD
     C --> D[List/FS Ops via std::filesystem]
     D --> E[Format + Colorize]
     E --> A
+---
 
 ```mermaid
 graph TD
