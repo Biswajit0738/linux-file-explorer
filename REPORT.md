@@ -17,17 +17,12 @@ The purpose of this project is to gain hands-on experience with Linux internal o
 ---
 
 ## 2. Objectives
--To understand how Linux organizes and manages files and directories at the filesystem level.
-
--To implement core file operations (create, copy, move, rename, delete) programmatically using C++17 <filesystem>.
-
--To simulate shell-like commands in a custom CLI environment for real file manipulation.
-
--To learn how to handle file permissions and interpret rwx bit representations.
-
--To perform recursive directory traversal and pattern-based file searching.
-
--To gain practical experience in building a system-level utility that interacts directly with the operating system.
+1) Provide an indexed, readable directory view with file type, size, and POSIX permissions.  
+2) Enable fast keyboard-only navigation (`cd`, `open <index>`, `pwd`).  
+3) Support essential file lifecyle ops: create, copy, move/rename, delete (recursive).  
+4) Expose permission inspection and modification using octal modes.  
+5) Offer efficient recursive name search with optional case-insensitivity.  
+6) Handle errors gracefully and work reliably on standard Ubuntu with C++17.
 
 ---
 
