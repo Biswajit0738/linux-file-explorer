@@ -77,9 +77,8 @@ graph TD
 
 ## 🛠 How to Compile & Run
 
-```bash
 g++ -std=gnu++17 main.cpp -o filex
-./filex---
+./filex
 
 ---
 
