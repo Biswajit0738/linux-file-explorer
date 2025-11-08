@@ -1,7 +1,9 @@
 <div align="center">
 
 # **Linux File Explorer (C++17)**  
-A terminal-based file manager built using the C++ `<filesystem>` library.
+A fast, console-based file explorer for Linux. It lists directories with metadata, lets you navigate with indices,
+and supports everyday ops (`cp`, `mv`, `rm`, `touch`, `mkdir`), permission view/change, and recursive search—clean,
+robust, and ready for demos.
 
 </div>
 
@@ -15,6 +17,32 @@ A terminal-based file manager built using the C++ `<filesystem>` library.
 | **Copy & Move** | Transfer and rename files easily. |
 | **Change Permissions** | Modify `rwx` permission bits. |
 | **Search Files** | Recursive search by file name pattern. |
+
+---
+
+## 🧠 How it works
+```mermaid
+flowchart TD
+    A[User command line] --> B[Parser]
+    B -->|validates| C[Command Dispatcher]
+    C --> D[List/FS Ops via std::filesystem]
+    D --> E[Format + Colorize]
+    E --> A
+
+# Include a file tree (Mermaid)
+```md
+## 📁 Project structure
+```mermaid
+flowchart TB
+    R[Repo Root]
+    R --> README[README.md]
+    R --> REPORT[REPORT.md]
+    R --> VIVA[VIVA_QA.md]
+    R --> DEMO[demo_script.md]
+    R --> CODE[main.cpp]
+    R --> SHOTS[screenshots/]
+    R --> GIT[.gitignore]
+    R --> LIC[LICENSE]
 
 ---
 
