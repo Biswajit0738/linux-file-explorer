@@ -84,7 +84,6 @@ g++ -std=gnu++17 main.cpp -o filex
 
 ---
 
-
 ## 📂 Project Structure
 
 linux-file-explorer/
