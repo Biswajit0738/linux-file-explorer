@@ -39,33 +39,36 @@ robust, and ready for demos.
 
 ---
 
-##  How it works
+## 🔧 How it works
+
 ```mermaid
 flowchart TD
     A[User command line] --> B[Parser]
-    B -->|validates| C[Command Dispatcher]
+    B --> C[Command Dispatcher]
     C --> D[List/FS Ops via std::filesystem]
     D --> E[Format + Colorize]
     E --> A
----
 
-```mermaid
+
 graph TD
-  R[Project Root]
-  R --> SRC[main.cpp]
-  R --> README[README.md]
-  R --> REPORT[REPORT.md]
-  R --> LICENSE[LICENSE]
-  R --> SS[screenshots/]
-  SS --> L[list.png]
-  SS --> C1[create.png]
-  SS --> CM[copy-move.png]
-  SS --> CH[chmod.png]
-  SS --> S[search.png]
-  R --> TEST[testdir/]
-  TEST --> F[file1.txt]
-  TEST --> RN[renamed.txt]
-```
+    R[Project Root]
+
+    R --> SRC[main.cpp]
+    R --> README[README.md]
+    R --> REPORT[REPORT.md]
+    R --> LICENSE[LICENSE]
+
+    R --> SS[screenshots/]
+    SS --> L[list.png]
+    SS --> CR[create.png]
+    SS --> CM[copy-move.png]
+    SS --> CH[chmod.png]
+    SS --> SE[search.png]
+
+    R --> TEST[testdir/]
+    TEST --> F[file1.txt]
+    TEST --> RN[renamed.txt]
+---
 
 
 
