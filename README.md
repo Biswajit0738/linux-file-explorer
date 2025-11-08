@@ -65,7 +65,7 @@ flowchart TB
 
 
 
-## 🧠 Skills Demonstrated
+##  Skills Demonstrated
 - Linux filesystem & directory traversal
 - C++17 `<filesystem>` API usage
 - Command parsing & interactive CLI design
