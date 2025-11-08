@@ -48,20 +48,24 @@ flowchart TD
     D --> E[Format + Colorize]
     E --> A
 
---
-
-## 📁 Project structure
 ```mermaid
-flowchart TB
-    R[Repo Root]
-    R --> README[README.md]
-    R --> REPORT[REPORT.md]
-    R --> VIVA[VIVA_QA.md]
-    R --> DEMO[demo_script.md]
-    R --> CODE[main.cpp]
-    R --> SHOTS[screenshots/]
-    R --> GIT[.gitignore]
-    R --> LIC[LICENSE]
+graph TD
+  R[Project Root]
+  R --> SRC[main.cpp]
+  R --> README[README.md]
+  R --> REPORT[REPORT.md]
+  R --> LICENSE[LICENSE]
+  R --> SS[screenshots/]
+  SS --> L[list.png]
+  SS --> C1[create.png]
+  SS --> CM[copy-move.png]
+  SS --> CH[chmod.png]
+  SS --> S[search.png]
+  R --> TEST[testdir/]
+  TEST --> F[file1.txt]
+  TEST --> RN[renamed.txt]
+```
+
 
 
 
