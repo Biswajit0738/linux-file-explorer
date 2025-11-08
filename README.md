@@ -1,15 +1,9 @@
-<h1 align="center">Linux File Explorer (C++17)</h1>
+<div align="center">
 
-<p align="center">
-  <b>A lightweight terminal-based file management tool.</b><br/>
-  Built using the C++17 <code>std::filesystem</code> library.
-</p>
+# **Linux File Explorer (C++17)**  
+A terminal-based file manager built using the C++ `<filesystem>` library.
 
-<p align="center">
-  <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-green.svg"></a>
-  <img src="https://img.shields.io/badge/C++-17-blue.svg">
-  <img src="https://img.shields.io/badge/Platform-Linux-orange.svg">
-</p>
+</div>
 
 ## 🚀 Features
 
@@ -21,6 +15,25 @@
 | **Copy & Move** | Transfer and rename files easily. |
 | **Change Permissions** | Modify `rwx` permission bits. |
 | **Search Files** | Recursive search by file name pattern. |
+
+---
+
+## 📸 Feature Demonstration (Screenshots)
+
+### 5.1 List Directory
+![List Directory Screenshot](screenshots/list.png)
+
+### 5.2 Create Directory & File
+![Create Directory Screenshot](screenshots/create.png)
+
+### 5.3 Copy & Move Files
+![Copy & Move Screenshot](screenshots/copy-move.png)
+
+### 5.4 Change Permissions
+![Change Permissions Screenshot](screenshots/chmod.png)
+
+### 5.5 Search Files
+![Search File Screenshot](screenshots/search.png)
 
 ---
 
@@ -56,22 +69,3 @@ linux-file-explorer/
 └── 📁 testdir/ # Example folder used during testing
 ├── 📄 file1.txt
 └── 📄 renamed.txt
-
----
-
-## 📸 Feature Demonstration (Screenshots)
-
-### 5.1 List Directory
-![List Directory Screenshot](screenshots/list.png)
-
-### 5.2 Create Directory & File
-![Create Directory Screenshot](screenshots/create.png)
-
-### 5.3 Copy & Move Files
-![Copy & Move Screenshot](screenshots/copy-move.png)
-
-### 5.4 Change Permissions
-![Change Permissions Screenshot](screenshots/chmod.png)
-
-### 5.5 Search Files
-![Search File Screenshot](screenshots/search.png)
