@@ -82,6 +82,8 @@ graph TD
 g++ -std=gnu++17 main.cpp -o filex
 ./filex
 
+---
+
 
 ## 📂 Project Structure
 
@@ -99,3 +101,5 @@ linux-file-explorer/
 └── 📁 testdir/ # Example folder used during testing
 ├── 📄 file1.txt
 └── 📄 renamed.txt
+
+---
