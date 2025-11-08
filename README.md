@@ -20,6 +20,29 @@ robust, and ready for demos.
 
 ---
 
+## **Project Structure**
+
+```mermaid
+graph TD
+    R[Project Root]
+    R --> SRC[main.cpp]
+    R --> README[README.md]
+    R --> REPORT[REPORT.md]
+    R --> LICENSE[LICENSE]
+
+    R --> SS[screenshots/]
+    SS --> L[list.png]
+    SS --> CR[create.png]
+    SS --> CM[copy-move.png]
+    SS --> CH[chmod.png]
+    SS --> SE[search.png]
+
+    R --> TEST[testdir/]
+    TEST --> F[file1.txt]
+    TEST --> RN[renamed.txt]
+
+---
+
 ## 📸 Feature Demonstration (Screenshots)
 
 ### 5.1 List Directory
