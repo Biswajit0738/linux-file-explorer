@@ -27,23 +27,22 @@ robust, and ready for demos.
 ---
 
 ## **Project Structure**
-graph TD
-    R[Project Root]
-    R --> SRC[main.cpp]
-    R --> README[README.md]
-    R --> REPORT[REPORT.md]
-    R --> LICENSE[LICENSE]
+## 📂 Project Structure
 
-    R --> SS[screenshots/]
-    SS --> L[list.png]
-    SS --> CR[create.png]
-    SS --> CM[copy-move.png]
-    SS --> CH[chmod.png]
-    SS --> SE[search.png]
-
-    R --> TEST[testdir/]
-    TEST --> F[file1.txt]
-    TEST --> RN[renamed.txt]
+linux-file-explorer/
+├── 🧠 main.cpp # Core C++ source code (file explorer implementation)
+├── 📄 REPORT.md # Capstone project report with explanations & screenshots
+├── 📘 README.md # Documentation & usage guide (this file)
+├── 📜 LICENSE # MIT License for open-source use
+├── 🖼️ screenshots/ # Demonstration images used in report & README
+│ ├── 🖼️ list.png # Directory listing output
+│ ├── 🖼️ create.png # Create directory + file example
+│ ├── 🖼️ copy-move.png # Copy and move operations demonstration
+│ ├── 🖼️ chmod.png # Permission modification example
+│ └── 🖼️ search.png # Recursive file search demonstration
+└── 📁 testdir/ # Example folder used during testing
+├── 📄 file1.txt
+└── 📄 renamed.txt
 
 ---
 
