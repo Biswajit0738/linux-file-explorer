@@ -39,7 +39,7 @@ robust, and ready for demos.
 
 ---
 
-## 🧠 How it works
+##  How it works
 ```mermaid
 flowchart TD
     A[User command line] --> B[Parser]
