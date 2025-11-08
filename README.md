@@ -6,6 +6,18 @@ and supports everyday ops (`cp`, `mv`, `rm`, `touch`, `mkdir`), permission view/
 robust, and ready for demos.
 
 </div>
+
+## 🚀 Features
+
+| Feature | Description |
+|--------|-------------|
+| **List directories/files** | Display directory contents with metadata. |
+| **Navigate folders** | Move through directories using paths. |
+| **Create/Delete** | Make or remove files and directories. |
+| **Copy & Move** | Transfer and rename files easily. |
+| **Change Permissions** | Modify `rwx` permission bits. |
+| **Search Files** | Recursive search by file name pattern. |
+
 ---
 
 ## 📸 Feature Demonstration (Screenshots)
@@ -27,19 +39,6 @@ robust, and ready for demos.
 
 ---
 
-## 🚀 Features
-
-| Feature | Description |
-|--------|-------------|
-| **List directories/files** | Display directory contents with metadata. |
-| **Navigate folders** | Move through directories using paths. |
-| **Create/Delete** | Make or remove files and directories. |
-| **Copy & Move** | Transfer and rename files easily. |
-| **Change Permissions** | Modify `rwx` permission bits. |
-| **Search Files** | Recursive search by file name pattern. |
-
----
-
 ## 🧠 How it works
 ```mermaid
 flowchart TD
@@ -48,6 +47,8 @@ flowchart TD
     C --> D[List/FS Ops via std::filesystem]
     D --> E[Format + Colorize]
     E --> A
+
+--
 
 ## 📁 Project structure
 ```mermaid
