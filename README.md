@@ -84,18 +84,19 @@ g++ -std=gnu++17 main.cpp -o filex
 ## 📂 Project Structure
 
 linux-file-explorer/
-├── 🧠 main.cpp # Core C++ source code (file explorer implementation)
-├── 📄 REPORT.md # Capstone project report with explanations & screenshots
-├── 📘 README.md # Documentation & usage guide (this file)
-├── 📜 LICENSE # MIT License for open-source use
-├── 🖼️ screenshots/ # Demonstration images used in report & README
-│ ├── 🖼️ list.png # Directory listing output
-│ ├── 🖼️ create.png # Create directory + file example
-│ ├── 🖼️ copy-move.png # Copy and move operations demonstration
-│ ├── 🖼️ chmod.png # Permission modification example
-│ └── 🖼️ search.png # Recursive file search demonstration
-└── 📁 testdir/ # Example folder used during testing
-├── 📄 file1.txt
-└── 📄 renamed.txt
+├── main.cpp                  # Core C++ source
+├── REPORT.md                 # Capstone report with screenshots
+├── README.md                 # Usage guide (this file)
+├── LICENSE                   # MIT license
+├── screenshots/              # Images used in README & REPORT
+│   ├── list.png
+│   ├── create.png
+│   ├── copy-move.png
+│   ├── chmod.png
+│   └── search.png
+├── testdir/                  # Example folder for demos
+│   ├── file1.txt
+│   └── renamed.txt
+
 
 ---
