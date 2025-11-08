@@ -1,15 +1,18 @@
 <div align="center">
-![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)
-![Made with C++](https://img.shields.io/badge/Made%20with-C%2B%2B17-blue.svg)
-![Platform: Linux](https://img.shields.io/badge/Platform-Linux-orange.svg)
-
 
 # **Linux File Explorer (C++17)**  
 A fast, console-based file explorer for Linux. It lists directories with metadata, lets you navigate with indices,
 and supports everyday ops (`cp`, `mv`, `rm`, `touch`, `mkdir`), permission view/change, and recursive search—clean,
 robust, and ready for demos.
 
+![License](https://img.shields.io/badge/License-MIT-green.svg)
+![Language](https://img.shields.io/badge/C++-17-blue.svg)
+![Platform](https://img.shields.io/badge/Platform-Linux-orange.svg)
+
 </div>
+
+---
+
 
 ## 🚀 Features
 
